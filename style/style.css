@@ -255,6 +255,9 @@ input{
 #box3{
     padding-left: 60px;
 }
+#box3 img{
+   padding-left:  20px;
+}
 footer p{
     background-color: cornflowerblue;
     padding-left: 140px;
