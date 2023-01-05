@@ -26,12 +26,12 @@
 /*header and navigation style*/
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 55px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 40px 200px;
+    padding: 50px 200px;
 }
 nav ul{
     display: flex;
@@ -41,6 +41,15 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+nav .li-hover:hover{
+    border: 0px solid #FD6E0A;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #91c29c;
+}
+
 /*banner style css*/
 .banner{
     margin: 0 200px;
@@ -49,7 +58,7 @@ nav li{
 }
 .banner-title{
     font-weight: 700;
-    font-size: 85px;
+    font-size: 65px;
  }
 .banner-sub-title{
     font-weight: 600;
@@ -61,6 +70,24 @@ nav li{
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+}
+.banner .btn{
+    display: flex;
+    gap: 20px;
+}
+.banner .btn-primary{
+    padding: 5px 30px;
+}
+.contact-n{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    font-size: 15px;
+    font-weight: 700;
+}
+.banner img{
+    padding-left: 100px;
+    margin-left: 270px;
 }
 /*main section*/
 main{
@@ -141,7 +168,7 @@ main{
 /*resume styles*/
 .resume-content{
     display: flex;
-    gap: 5git0px;
+    gap: 50px;
     margin-top: 60px;
 }
 .resume .section-title{
@@ -149,8 +176,8 @@ main{
     margin-bottom: 100px;
 }
 .resume-title{
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 800;
+    font-size: 70px;
     color: #474747;
     margin-bottom: 30px;
 }
@@ -162,11 +189,13 @@ main{
     font-weight: 700;
     font-size: 25px;
     color: #474747;
+    margin-bottom: 10px;
 }
 .sub-title{
     font-weight: 600;
     font-size: 20px;
     color: #757575;
+    margin-bottom: 20px;
 }
 .description{
     font-weight: 400;
@@ -204,4 +233,34 @@ a img{
 }
 input{
     height: 34px;
+}
+/*Footer-styles*/
+.footer-container{
+    display: flex;
+    padding: 50px 100px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.box{
+    padding: 0 50px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.box h2{
+    padding-bottom: 30px;
+}
+.box ul li{
+    list-style: none;
+}
+#box3{
+    padding-left: 60px;
+}
+footer p{
+    background-color: cornflowerblue;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer span{
+    padding-left: 100px;
 }
